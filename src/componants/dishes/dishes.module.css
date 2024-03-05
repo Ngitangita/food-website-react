@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+:root{
+    --white: #FFFFFF;
+    --green:#27ae60;
+    --black:#192a56;
+    --light-color:#666;
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+    --white2: #eee;
+}
+
+.ourDishes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+    height: auto;
+    padding: 50px 0 20px 0;
+}
+
+.ourDishes span{
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--green);
+}
+
+.ourDishes h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--black);
+}
+
+.Dishes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.DisheFood{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 330px;
+    height: 370px;
+    background-color: var(--white);
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 0px 1px;
+}
+
+.FontAwesomeIcon{
+    display: flex;
+    justify-content: space-between;
+    width: 420px;
+    position: relative;
+    top: 20px;
+    z-index: 100;
+}
+
+.DisheFood:hover .FontAwesomeIcon{
+    width: 300px;
+}
+
+.Icon{
+    background: var(--white2);
+    border-radius: 50%;
+    padding: 13px;
+    cursor: pointer;
+}
+
+.Icon:hover{
+    background-color: var(--green);
+    color: var(--white);
+}
+
+
+.Dishe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    bottom: 15px;
+    z-index: 98;
+    height: 350px;
+}
+
+
+.Dishe p{
+    font-size: 25px;
+    color: var(--black);
+    font-weight: bold;
+}
+
+.IconStar{
+    color: var(--green);
+    display: flex;
+    gap: 3px;
+    position: relative;
+    bottom: 10px;
+}
+
+.button{
+    display: flex;
+    gap: 20px;
+}
+
+
+.button button{
+    padding: 0px 30px;
+    color: var(--white);
+    background-color: var(--black);
+    border-radius: 5px;
+}
+
+.button button:hover{
+    background-color: var(--green);
+    scale: 1.1;
+}
