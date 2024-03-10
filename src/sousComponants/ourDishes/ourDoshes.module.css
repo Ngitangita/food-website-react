@@ -59,7 +59,7 @@
     width: 420px;
     position: relative;
     top: 20px;
-    z-index: 100;
+    z-index: 99;
 }
 
 .DisheFood:hover .FontAwesomeIcon{

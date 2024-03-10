@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+:root{
+    --white: #FFFFFF;
+    --green:#27ae60;
+    --black:#192a56;
+    --light-color:rgb(238, 238, 238);
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+    --white2: #eee;
+}
+
+.Review{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0 30px 0;
+    overflow: hidden;
+}
+
+.Review span{
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--green);
+    text-align: center;
+}
+
+.Review h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--black);
+    text-align: center;
+}
+
+.reviews{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px;
+    position: relative;
+    left: 200px;
+}
+
+.reviewSlider{
+    width: 350px;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    color: rgb(104, 104, 104);
+    box-shadow: var(--box-shadow);
+    border: 1px solid var(--light-color);
+    border-radius: 5px;
+}
+
+.reviewSlid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reviewSlid img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.reviewSlid .name{
+   color: var(--black);
+   font-size: 25px;
+}
+
+.reviewSlid .IconStar{
+    display: flex;
+    gap: 3px;
+    color: var(--green);
+    font-size: 15px;
+ }
+
+.reviewSlid .iconRigth{
+    font-size: 80px;
+    position: relative;
+    bottom: 10px;
+    color: var(--light-color);
+ }

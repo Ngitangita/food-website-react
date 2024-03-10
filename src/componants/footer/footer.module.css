@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+:root{
+    --white: #FFFFFF;
+    --green:#27ae60;
+    --black:#192a56;
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+    --white2: #eee;
+}
+
+.Footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px;
+    gap: 20px;
+}
+
+.FooterLink{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    gap: 20px;
+    padding-bottom: 20px;
+    border-bottom: var(--white2) 1px solid;
+}
+.Link{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.Link span{
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--black);
+}
+
+.Link a{
+    color: #666;
+    text-decoration: none;
+    line-height: 0.7cm;
+}
+
+.Link a:hover{
+    color: var(--green);
+    text-decoration: underline;
+}
+
+.Footer p{
+    font-size: 18px;
+    color: var(--black);
+}
+
+.Footer p span{
+    color: var(--green);
+}

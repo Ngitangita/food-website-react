@@ -6,16 +6,16 @@ import { OurOrders } from "../../sousComponants/ourOrders/OurOrders";
 import { OurReviews } from "../../sousComponants/ourReviews/OurReviews";
 import { Footer } from "../footer/Footer";
 
-export function Home() {
-   return (
-      <>
-         <OurHome />
-         <OurDishes />
-         <AboutUs />
-         <OurMenus />
-         <OurReviews />
-         <OurOrders />
-         <Footer />
-      </>
-   )
+export function Order() {
+    return (
+        <>
+            <OurHome />
+            <OurDishes />
+            <AboutUs />
+            <OurMenus />
+            <OurReviews />
+            <OurOrders />
+            <Footer />
+        </>
+    )
 }

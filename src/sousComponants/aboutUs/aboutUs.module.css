@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+:root{
+    --white: #FFFFFF;
+    --green:#27ae60;
+    --black:#192a56;
+    --light-color:#666;
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+    --white2: #eee;
+}
+
+
+.AboutUs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 30px 0 20px 0;
+}
+
+
+.AboutUs span{
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--green);
+}
+
+.AboutUs h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--black);
+}
+
+.About{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+
+.bestFood{
+    max-width: 550px;
+    color: rgb(104, 104, 104);
+    line-height: 0.8cm;
+    padding-bottom: 10px;
+}
+
+.bestFood h3{
+    color: var(--black);
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+}
+
+.button{
+    padding: 10px;
+    color: var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    box-shadow: 0px 0px 1px;
+    border-radius: 5px;
+}
+
+.buttonsIcon{
+    color: var(--green);
+    font-size: 25px;
+}
+
+.btns{
+    width: 265px;
+}
+
+.btnsHeadset{
+    width: 550px;
+}
+
+.btn{
+    padding: 5px 30px;
+    color: var(--white);
+    background-color: var(--black);
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: var(--green);
+    padding-right: 40px;
+}
