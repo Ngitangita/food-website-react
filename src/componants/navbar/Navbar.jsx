@@ -29,7 +29,7 @@ export function Navbar() {
         <span><FontAwesomeIcon icon={faUtensils} className={style.faUtensils} />Resto.</span>
 
         <ul>
-          <NavLink to="/" className={({ isActive }) => isActive ? style.active : ""}>Home</NavLink>
+          <NavLink to="/" className={({ isActive }) => isActive ? style.active : "/"}>Home</NavLink>
           <NavLink className={({ isActive }) => isActive ? style.active : ""} to="/dishes">Dishes</NavLink>
           <NavLink className={({ isActive }) => isActive ? style.active : ""} to="/aboutUs">About</NavLink>
           <NavLink className={({ isActive }) => isActive ? style.active : ""} to="/menu">Menu</NavLink>
